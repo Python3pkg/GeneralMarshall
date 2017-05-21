@@ -248,7 +248,7 @@ class XML(object):
             overwrite = ""
             while overwrite != "y" and overwrite != "n":
                 prompt = "File already exists. Overwrite? (y/n)\n"
-                overwrite = raw_input(prompt)
+                overwrite = input(prompt)
                 overwrite = overwrite.lower()
             if overwrite == "n":
                 print("Please enter a new file name.")

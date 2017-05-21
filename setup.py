@@ -7,7 +7,7 @@ Created on 22.04.2013
 
 from distutils.core import setup
 
-from general_marshall import VERSION
+from .general_marshall import VERSION
 
 setup(name="GeneralMarshall",
       version=VERSION,
